@@ -8,7 +8,7 @@
  */
 var countOdds = function(low, high) {
   // Brute Force
-  // Time Complexity: O(N)
+  // Time Complexity: O(high - low) where high - low could be up to 10^9
   // Space Complexity: O(1)
   
   let count = 0;
